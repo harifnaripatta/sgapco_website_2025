@@ -559,7 +559,7 @@
 }
 .funfactSection02 {
   position: relative;
-  padding: 159px 0 152px;
+  padding: 120px 0 0px;
 }
 .ideaSection01 {
   position: relative;
@@ -1566,7 +1566,7 @@
 }
 .service_section_09 {
   position: relative;
-  padding: 110px 0 130px;
+  /* padding: 110px 0 130px; */
 }
 .abvideoSection {
   background: url(../images/bg/41.jpg) no-repeat center center / cover;

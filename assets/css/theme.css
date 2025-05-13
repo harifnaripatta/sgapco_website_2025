@@ -3896,7 +3896,9 @@ select::-ms-input-placeholder {
 .footer_02 {
   position: relative;
   padding: 0 0 0;
-  background: url(../images/bg/12.jpg) no-repeat center center / cover;
+  background: url(../images/bg/page-bottom-bg.jpg) no-repeat center center /
+    cover;
+  /* background: url(../images/bg/12.jpg) no-repeat center center / cover; */
 }
 .footer_02:after {
   position: absolute;
@@ -9477,7 +9479,8 @@ body.menuOpened {
   color: inherit;
 }
 .folioHover05 h4 a:hover {
-  color: #3d334c;
+  color: #fff;
+  /* color: #3d334c; */
 }
 .folioHover05 p {
   font-size: 17px;
@@ -9496,7 +9499,8 @@ body.menuOpened {
   color: inherit;
 }
 .folioHover05 p a:hover {
-  color: #3d334c;
+  color: #fff;
+  /* color: #3d334c; */
 }
 .folioItem05:hover .folioHover05 .crm {
   -webkit-transform: scale(1);
@@ -12233,9 +12237,9 @@ input[type="checkbox"]:checked ~ span:before {
 }
 .sf03video {
   position: relative;
-  padding: 305px 0;
+  /* padding: 305px 0;
   background: url(../images/single-folio/video-bg.jpg) no-repeat center center /
-    cover;
+    cover; */
 }
 .sf03video .popup_video {
   height: 100px;
@@ -12273,7 +12277,8 @@ input[type="checkbox"]:checked ~ span:before {
 }
 .portfolioPage03 {
   position: relative;
-  padding: 90px 0 142px;
+  /* padding: 90px 0 142px; */
+  
 }
 .portfolioPage03 .filter_menu li:hover span,
 .portfolioPage03 .filter_menu li.active span,
@@ -12290,9 +12295,10 @@ input[type="checkbox"]:checked ~ span:before {
 .pf04 .folioHover02 h4 a:hover {
   color: var(--theme-color);
 }
-.pf05 {
-  padding: 130px 0 142px;
-}
+/* .pf05 {
+  /* padding: 130px 0 142px; */
+  /* padding: 130px 0 142px; */
+} */
 .pf05 .filter_menu03 li.active,
 .pf05 .filter_menu03 li:hover {
   color: var(--theme-color);
