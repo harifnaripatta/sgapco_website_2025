@@ -1057,7 +1057,9 @@
 }
 .sitem_con {
   position: relative;
-  padding: 22px 30px 23px 105px;
+  padding: 30px;
+  text-align: center;
+  /* padding: 22px 30px 23px 105px; */
 }
 .ibMeta {
   font-size: 50px;
@@ -2529,7 +2531,8 @@ select::-ms-input-placeholder {
   left: 0;
   top: 0;
   width: 100%;
-  background: transparent;
+  background: #00000081;
+  /* background: transparent; */
   z-index: 5;
   padding: 0 85px 0 40px;
 }
@@ -11107,7 +11110,7 @@ input[type="checkbox"]:checked ~ span:before {
 /------------------------------------------------------*/
 .blogPage {
   position: relative;
-  padding: 150px 0;
+  padding: 50px 0 0 0;
 }
 .blogList01 {
   position: relative;
@@ -11126,7 +11129,7 @@ input[type="checkbox"]:checked ~ span:before {
 .listCon {
   position: relative;
   background: #fff;
-  margin: -40px 18px 0 27px;
+  /* margin: -40px 18px 0 27px; */
   border-radius: 3px 3px 0 0;
   padding: 52px 50px 46px;
   border-bottom: 1px solid #ececec;
@@ -11257,9 +11260,9 @@ input[type="checkbox"]:checked ~ span:before {
   color: #fff;
   background: var(--theme-color);
 }
-.bpPad {
-  padding-bottom: 258px;
-}
+/* .bpPad {
+  padding-bottom: 10px;
+} */
 .blogPage .bireverse .blogContent {
   padding: 0;
   text-align: left;
@@ -11349,8 +11352,8 @@ input[type="checkbox"]:checked ~ span:before {
 }
 .sidebar .widget {
   position: relative;
-  margin: 0 0 40px;
-  padding: 44px 40px 45px;
+  /* margin: 0 0 40px; */
+  padding: 20px;
   border-radius: 10px;
   background: url(../images/bg/widget.jpg) no-repeat center center / cover;
 }
@@ -13824,7 +13827,7 @@ input[type="checkbox"]:checked ~ span:before {
 .sp04 {
   position: relative;
   background: #f7f7f7;
-  padding: 150px 0 110px;
+  /* padding: 150px 0 110px; */
 }
 .sp04 .service_item_01 {
   margin-bottom: 40px;

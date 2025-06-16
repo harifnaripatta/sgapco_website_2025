@@ -1,0 +1,117 @@
+.about-banner {
+  background: #047187;
+  background: linear-gradient(
+    90deg,
+    rgba(4, 113, 135, 1) 0%,
+    rgba(58, 58, 97, 1) 35%,
+    rgba(4, 113, 135, 1) 100%
+  ); /* blue gradient */
+  height: 300px;
+  display: flex;
+  align-items: center;
+  color: white;
+  position: relative;
+}
+
+.content-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 110px;
+}
+
+h2 {
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* .red-line {
+  display: inline-block;
+  width: 4px;
+  height: 24px;
+  background-color: #fff;
+  margin-right: 10px;
+} */
+
+.breadcrumb {
+  /*   background: linear-gradient(to right, #f44336, #e91e63); */
+  background-color: #00007c;
+  padding: 10px 20px;
+  border-radius: 999px;
+  font-size: 1rem;
+  white-space: nowrap;
+  color: #fff;
+}
+
+.breadcrumb i {
+  margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+  .content-wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .breadcrumb {
+    align-self: flex-start;
+  }
+}
+/* ... previous styles ... remain unchanged up to .breadcrumb */
+
+h2,
+.breadcrumb {
+  opacity: 0;
+  transform: translateX(0);
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+
+/* Slide-in from left for heading */
+h2 {
+  animation-name: slideInLeft;
+}
+
+/* Slide-in from right for breadcrumb */
+.breadcrumb {
+  animation-name: slideInRight;
+  animation-delay: 0.3s;
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .content-wrapper {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .breadcrumb {
+    align-self: flex-start;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+}

@@ -320,7 +320,7 @@
 }
 .aboutSection02 {
   position: relative;
-  padding: 160px 0 0 160px;
+  padding: 100px 0 0 160px;
 }
 .aboutSection02 .subTitle {
   margin-top: 32px;
@@ -559,7 +559,7 @@
 }
 .funfactSection02 {
   position: relative;
-  padding: 120px 0 0px;
+  padding: 120px 0 30px;
 }
 .ideaSection01 {
   position: relative;
@@ -1715,7 +1715,7 @@
 }
 .footer_02.abfPadd {
   padding-top: 107px;
-  margin-top: 50px;
+  /* margin-top: 50px; */
 }
 .contactPage {
   position: relative;
@@ -1743,7 +1743,7 @@
 }
 .servicePage01 {
   position: relative;
-  padding: 170px 0 60px;
+  padding: 120px 0 60px;
 }
 .withbg {
   background: #f9f9f9;

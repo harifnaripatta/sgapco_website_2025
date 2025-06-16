@@ -1,0 +1,90 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 0;
+}
+
+/* .image-wrapper {
+        flex: 1 1 350px;
+        max-width: 400px;
+      } */
+.image-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+  flex: 1 1 350px; /* Updated size */
+  max-width: 400px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  background: white;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+  border-radius: 16px;
+  display: block;
+}
+.image-wrapper:hover img {
+  transform: scale(1.1);
+}
+
+.zoom-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.image-wrapper:hover .zoom-icon {
+  opacity: 1;
+}
+
+.zoom-icon i {
+  font-size: 24px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 12px;
+  border-radius: 50%;
+}
+/* Popup styles */
+.popup {
+  display: none; /* make sure it's hidden by default */
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  align-items: center;
+  justify-content: center;
+}
+
+.popup img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 12px;
+}
+
+.close {
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
