@@ -4531,7 +4531,7 @@ select::-ms-input-placeholder {
   color: inherit;
 }
 .folioHover02 h4 a:hover {
-  color: var(--theme-color-three);
+  color: var(--theme-color);
 }
 .shaff_size {
   z-index: -1;
