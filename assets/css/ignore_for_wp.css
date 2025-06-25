@@ -1534,7 +1534,7 @@
 .footer_07 .pp_post_item02 a:hover,
 .footer_07 .wmenu02 ul.menu li:hover:after,
 .footer_07 .wmenu02 ul.menu li:hover a {
-  color: var(--theme-color);
+  color: var(--theme-color-six);
 }
 .aboutPageSection01 {
   position: relative;

@@ -2565,7 +2565,7 @@ select::-ms-input-placeholder {
   top: calc(50% + 7px);
 }
 .header02 .mainMenu ul li:hover > a {
-  color: var(--theme-color-two);
+  /* color: var(--theme-color-two); */
 }
 .header02 .mainMenu ul li .sub-menu li.current-menu-item > a,
 .header02 .mainMenu ul li .sub-menu li:hover > a {
@@ -5531,7 +5531,7 @@ body.menu_open {
 }
 .menu_popup ul li.active > a,
 .menu_popup ul li:hover > a {
-  color: var(--theme-color);
+  color: var(--theme-color-six);
 }
 .menu_popup ul li.menu-item-has-children > a {
   position: relative;

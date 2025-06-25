@@ -81,7 +81,8 @@ a {
   -webkit-transition: all ease 400ms;
 }
 a:hover {
-  color: var(--theme-color);
+  /* color: var(--theme-color); */
+  color: var(--theme-color-six) !important;
   text-decoration: none;
 }
 input:focus,
